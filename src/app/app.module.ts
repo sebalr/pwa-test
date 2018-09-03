@@ -22,7 +22,7 @@ library.add(faLinkedin, faTwitter);
     AppRoutingModule,
     HttpModule,
     FontAwesomeModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+    ServiceWorkerModule.register('pwa-app/ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
